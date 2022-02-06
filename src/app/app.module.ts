@@ -6,17 +6,25 @@ import { AppComponent } from './app.component';
 import { PianoComponent } from './componentes/piano/piano.component';
 import { DadosComponent } from './componentes/dados/dados.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
+import { DragonbzModule } from './dragonBz/dragonbz.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//import { MainPageComponent } from './dragonBz/main-page/main-page.component';
+ 
+
 
 @NgModule({
   declarations: [
     AppComponent,
     PianoComponent,
     DadosComponent,
-    InicioComponent
+    InicioComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    DragonbzModule,
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

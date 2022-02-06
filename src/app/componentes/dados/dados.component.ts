@@ -11,5 +11,6 @@ export class DadosComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+//  const imagen=new  Imagen();
+ // imagen.src ='../assets/img/Dado/dice1.png';
 }
