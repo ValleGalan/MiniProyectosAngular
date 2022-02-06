@@ -1,0 +1,19 @@
+.contenedor_tabla_dbz{
+     background-color: rgb(104, 223, 25);
+     border-radius:6%;
+     display:flex;
+     flex-direction:column;
+     width: 40%;
+     float:left;
+}
+table{
+    border-color:black;
+}
+.contenedor_dbz{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align:start;
+    width:25%;
+    margin-left:50%;
+    flex-wrap:wrap ;
+}  

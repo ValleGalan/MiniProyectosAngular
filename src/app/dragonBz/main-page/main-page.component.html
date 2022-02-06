@@ -1,2 +1,39 @@
-<h1>Dragon Ball Z</h1>
-<hr>
+ 
+<div class="contenedor_tabla_dbz">
+<table>
+    <thead><tr>
+        <th> NOMBRE</th>
+        <th> PUNTOS</th>
+    </tr></thead>
+    <tbody>
+    <tr *ngFor="let personaje of personajes">
+        <th>  {{personaje.nombre}} </th>
+        <th> {{personaje.poder }} </th>
+    </tr>
+</tbody>
+</table>
+</div>
+ 
+<div class="contenedor_dbz">
+<form (ngSubmit)="agregar()"> 
+    <label for="nombre" >Nombre:</label>
+    <input type="text" placeholder="NOMBRE" 
+    name="nombre"
+    [(ngModel)]="nuevo.nombre"
+    >
+    <label for="number" >Poder:</label>
+    <input type="text" placeholder="poder" 
+    name="poder"
+    [(ngModel)]="nuevo.poder">
+
+    <button type="submit">Agregar</button>
+</form>
+</div>
+<!--
+    OTRA FORMA DE HACERLO
+    [value]="nuevo.nombre"
+    [input]="cambiarNombre($event)"
+    cambiarNombre(event: any){
+         console.log(event.target.value);
+    }
+-->
