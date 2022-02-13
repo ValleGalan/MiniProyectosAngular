@@ -9,6 +9,7 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
 import { DragonbzModule } from './dragonBz/dragonbz.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //import { MainPageComponent } from './dragonBz/main-page/main-page.component';
+import { MaterialModule } from './material/material.module';
  
 
 
@@ -23,6 +24,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     DragonbzModule,
     AppRoutingModule,
+
+    MaterialModule,
     BrowserAnimationsModule
   ],
   providers: [],
