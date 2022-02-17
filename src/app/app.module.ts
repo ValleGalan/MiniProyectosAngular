@@ -5,20 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { MaterialModule } from './material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppComponent } from './app.component';
-
-import { PianoComponent } from './componentes/piano/piano.component';
-import { DadosComponent } from './componentes/dados/dados.component';
-import { InicioComponent } from './componentes/inicio/inicio.component';
+ 
 import { DragonbzModule } from './dragonBz/dragonbz.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+ 
+import { DadosComponent } from './components/inicio/dados/dados.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+ 
+ 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PianoComponent,
+ 
     DadosComponent,
-    InicioComponent,  
+    InicioComponent,
   ],
   imports: [
     BrowserModule,

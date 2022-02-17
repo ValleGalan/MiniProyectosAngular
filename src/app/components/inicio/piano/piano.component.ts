@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './piano.component.html',
   styleUrls: ['./piano.component.css']
 })
-export class PianoComponent implements OnInit {
+export class pianoComponent implements OnInit {
 
   constructor() { }
 
